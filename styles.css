@@ -51,7 +51,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
-    padding: 0 20px;
+    padding: 0;
 }
 
 .item {
@@ -62,6 +62,7 @@ main {
     display: flex;
     flex-direction: column;
     padding: 20px 10px;
+    box-sizing: border-box; /* Garantir que padding e border não afetem o tamanho do item */
 }
 
 .item-foto {
@@ -238,7 +239,8 @@ footer a {
 
     .item {
         padding: 10px;
-        height: auto;
+        box-sizing: border-box;
+        width: 100%; /* Garantir que os itens ocupem toda a largura do seu contêiner */
     }
 
     .contribuir-btn {
