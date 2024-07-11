@@ -1,0 +1,1931 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazar do Seminarista</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Bazar do Seminarista</h1>
+            <p>Este é uma bazar beneficente, destinado a auxiliar o Ir. Rôney 
+                em sua viagem ao Seminário de Teologia Martin Bucer, e a 
+                também auxiliar no seminário do Ir. Davi. Sua participação faz a diferença!</p>
+        </div>
+    </header>
+    <main>
+        <section class="categoria">
+            <section class="categoria">
+                <h2>Livros</h2>
+                <div class="grid-container">
+
+                    <section class="item">
+
+                        <div class="item-title">
+                            <img src="./Fotos/Comentário Bíblico NVI.png" alt="A Bíblia garota de fé" class="item-foto">
+                            <h3 class="item-nome">Comentário Bíblico NVI</h3>
+                        </div>
+
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> ... </br>
+                                <b>Editora:</b> Vida</br>
+                                <b>Cod:</b> DAV</br>
+                                <b>Contribuição:</b> R$ 100,00 </p>                            
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Comentário Bìblico NVI', 'R$ 100,00')">Contribuir</button>
+                    </section>
+                    
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/ROanos John Murray.png" alt="A Bíblia garota de fé" class="item-foto">
+                            <h3 class="item-nome">Romanos: comentários Bíblicos</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Jhon Murray <br>
+                                <b>Editora:</b> ... <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 70,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Romanos: comentários Bíblicos', 'R$ 70,00')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/AT int.png " class="item-foto">
+                            <h3 class="item-nome">Antigo Testamento Interlinear: Hebraico/Português. Vol 1 e 2</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> ... <br>
+                                <b>Editora:</b> SBB <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 180,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Antigo Testamento Interlinear: Hebraico/Português. Vol 1 e 2', 'R$ 180,00')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/Dicionário Bíblico Wyfclife.png " class="item-foto">
+                            <h3 class="item-nome">Dicionário Bíblico</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Wycliffe <br>
+                                <b>Editora:</b> CPAD <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 150,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Dicionário Bíblico', 'R$ 150,00')">Contribuir</button>
+                    </section>
+
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/Santidade.png" class="item-foto">
+                            <h3 class="item-nome">Santidade: sem a qual ninguém verá a Deus</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> J. C. Ryle <br>
+                                <b>Editora:</b> Fiel <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 40,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Santidade: sem a qual ninguém verá a Deus')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/Evangelismo.png" class="item-foto">
+                            <h3 class="item-nome">Evangelismo</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Jhon MacArthuir <br>
+                                <b>Editora:</b> Thomas Nelson Brasil <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Evangelismo', 'R$ 20,00' )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/1, 2 e 3 João.png" class="item-foto">
+                            <h3 class="item-nome">1, 2, 3 João: Como ter garantia da salvação</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Hernandes Dias Lopes <br>
+                                <b>Editora:</b> Hagnos <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('1, 2, 3 João: Como ter garantia da salvação', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/A vida d.png" class="item-foto">
+                            <h3 class="item-nome">A vida de Paz</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> D. M. Llyod-Jones <br>
+                                <b>Editora:</b> PES <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 25,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('A vida de Paz', 'R$ 25,00' )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/A vida de Alegria.png" class="item-foto">
+                            <h3 class="item-nome">A vida de Alegria</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> D. M. Llyod-Jones <br>
+                                <b>Editora:</b> PES <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 25,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('A vida de Alegria', 'R$ 25,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/Introdução ao Novo Testamento Carson.png" class="item-foto">
+                            <h3 class="item-nome">Introdução ao Novo Testamento</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> D. A. Carson, Douglas J. Moo, Leon Morris <br>
+                                <b>Editora:</b> Vida Nova <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 50,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Introdução ao Novo Testamento', 'R$ 50,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/Introdução ao Antigo Testamento Lasor.png" class="item-foto">
+                            <h3 class="item-nome">Introdução ao Antigo Testamento</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> LASOR, HUBBARD e BUSH <br>
+                                <b>Editora:</b> Vida Nova <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 50,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Introdução ao Antigo Testamento', 'R$ 50,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/Catecismo Westminster.png" class="item-foto">
+                            <h3 class="item-nome">Catecismo Maior Westminster comentado</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Johannes Geerhardus Vos <br>
+                                <b>Editora:</b> Os Puritanos <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 110,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Catecismo Maior Westminster comentado', 'R$ 110,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/Estudos no Sermão do Monte.png" class="item-foto">
+                            <h3 class="item-nome">Estudos no Sermão do Monte</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> D. M. Llyod-Jones <br>
+                                <b>Editora:</b> Fiel <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 70,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Estudos no Sermão do Monte', 'R$ 70,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/Fundamentos da graça.png" class="item-foto">
+                            <h3 class="item-nome">Fundamentos da Graça: longa linha de vultos piedosos*</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Steven J. Lawson <br>
+                                <b>Editora:</b> --- <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 130,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Fundamentos da Graça: longa linha de vultos piedosos*', 'R$ 130,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/Criados à imagem de Deus.png" class="item-foto">
+                            <h3 class="item-nome">Criados à imagem de Deus</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Anthony A. Hoekma <br>
+                                <b>Editora:</b> Cultura Cristã <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 27,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Criados à imagem de Deus', 'R$ 27,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/Somos todos Teólogos.png" class="item-foto">
+                            <h3 class="item-nome">Somos Todos Teólogos: uma introdução à Teologia Sistemática</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> R. C. Sproul <br>
+                                <b>Editora:</b> Fiel <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 60,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Somos Todos Teólogos: uma introdução à Teologia Sistemática', 'R$ 60,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/Teologia SIstemática Berkhof.png" class="item-foto">
+                            <h3 class="item-nome">Teologia Sistemática</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Louis Berkhof <br>
+                                <b>Editora:</b> Cultura Cristã <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 40,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Teologia Sistemática', 'R$ 40,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Teologia Sistemática - Completa (Vol 1 e 2)</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Augustos Hopkins STRONG <br>
+                                <b>Editora:</b> Hagnos <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 160,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Teologia Sistemática - Completa (Vol 1 e 2)', 'R$ 160,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Teologia Puritana</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autores:</b> Joel Beeke e Mark Jones <br>
+                                <b>Editora:</b> Vida Nova <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 150,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Teologia Puritana', 'R$ 150,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">A Igreja Cristã na História</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Franklin Ferreira <br>
+                                <b>Editora:</b> Vida Nova <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 50,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('A Igreja Cristã na História', 'R$ 50,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Manual de Arqueologia Bíblica Thomas Nelson</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autores:</b> Randall Price e H. Wayne House <br>
+                                <b>Editora:</b> Thomas Nelson Brasil <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 50,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Manual de Arqueologia Bíblica Thomas Nelson', 'R$ 50,00', )">Contribuir</button>
+                    </section>
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Comentário Bíblico Moody - Gênesis a Malaquias</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Charles F. Pleiffer <br>
+                                <b>Editora:</b> Batista Regular <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 90,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Comentário Bíblico Moody - Gênesis a Malaquias', 'R$ 90,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Comentário Bíblico Moody - Mateus a Apocalipse</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Charles F. Pleiffer <br>
+                                <b>Editora:</b> Batista Regular <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 90,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Comentário Bíblico Moody - Mateus a Apocalipse', 'R$ 90,00' )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Cinco Pontos</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> John Piper <br>
+                                <b>Editora:</b> Fiel <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 10,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Cinco Pontos', 'R$ 10,00')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">O Culto Segundo Deus</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Augustus Nicodemus <br>
+                                <b>Editora:</b> Vida Nova <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('O Culto Segundo Deus', 'R$ 15,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Supremacia e Suficiência de Cristo</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Augustus Nicodemus <br>
+                                <b>Editora:</b> Vida Nova <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Supremacia e Suficiência de Cristo', 'R$ 15,00', )">Contribuir</button>
+                    </section>
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">A Justificação de Deus</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Jhon Piper <br>
+                                <b>Editora:</b> Cultura Cristã <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 40,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('A Justificação de Deus', 'R$ 40,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Os Atributos de Deus</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> A. W. Pink <br>
+                                <b>Editora:</b> PES <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 10,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Os Atributos de Deus', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Livres em Cristo</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Augustus Nicodemus <br>
+                                <b>Editora:</b> Vida Nova <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 25,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Livres em Cristo', 'R$ 25,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Comentário do Novo Testamento - Atos - Volume 2</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Simon Kistemaker <br>
+                                <b>Editora:</b> Cultura Cristã <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 60,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Comentário do Novo Testamento - Atos - Volume 2', 'R$ 60,00', )">Contribuir</button>
+                    </section>
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Comentário do Novo Testamento - Tiago e Epístolas de João</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Simon Kistemaker <br>
+                                <b>Editora:</b> Cultura Cristã <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 85,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Comentário do Novo Testamento - Tiago e Epístolas de João', 'R$ 85,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Comentário do Novo Testamento - 1 e 2 Timóteo e Tito</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> William Hendrik <br>
+                                <b>Editora:</b> Cultura Cristã <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 85,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Comentário do Novo Testamento - 1 e 2 Timóteo e Tito', 'R$ 85,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Comentário do Novo Testamento - Filipenses</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> William Hendrik <br>
+                                <b>Editora:</b> Cultura Cristã <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 60,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Comentário do Novo Testamento - Filipenses', 'R$ 60,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Comentário do Novo Testamento - Lucas Vol 1 e 2</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> William Hendrik <br>
+                                <b>Editora:</b> Cultura Cristã <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 100,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Comentário do Novo Testamento - Lucas Vol 1 e 2', 'R$ 100,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Comentário do Novo Testamento - João</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> William Hendrik <br>
+                                <b>Editora:</b> Cultura Cristã <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 60,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Comentário do Novo Testamento - João', 'R$ 60,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Comentário do Novo Testamento - Marcos</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> William Hendrik <br>
+                                <b>Editora:</b> Cultura Cristã <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 50,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Comentário do Novo Testamento - Marcos', 'R$ 50,00', )">Contribuir</button>
+                    </section>
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Comentário do Novo Testamento - Mateus Vol 2</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> William Hendrik <br>
+                                <b>Editora:</b> Cultura Cristã <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 45,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Comentário do Novo Testamento - Mateus Vol 2', 'R$ 45,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Comentário Antigo e Novo Testamento COMPLETO (6 Vol.)</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Matthew Henry <br>
+                                <b>Editora:</b> Cultura Cristã <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 250,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Comentário Antigo e Novo Testamento COMPLETO (6 Vol.)', 'R$ 250,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Dicionário de Cristianismo e Ciência</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Copan, Longman III, Reese e Strauss <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 35,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Dicionário de Cristianismo e Ciência', 'R$ 35,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Comentário Bíblico NVI</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Vida <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 100,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Comentário Bíblico NVI', 'R$ 100,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Contra a idolatria do Estado</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Franklin Ferreira <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Contra a idolatria do Estado', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Humildade</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> C. J. Mahaney <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Humildade', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Oração e a Vida Cristã</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> John Knox e João Calvino <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Oração e a Vida Cristã', 'R$ 15,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Pedro, pescador de homens</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Hernandes Dias Lopes <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Pedro, pescador de homens', 'R$ 15,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Irmãos, não somos profissionais</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> John Piper <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 30,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Irmãos, não somos profissionais', 'R$ 30,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Lutando contra Satanás</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Joel Beeke <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 22,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Lutando contra Satanás', 'R$ 22,00', )">Contribuir</button>
+                    </section>
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Inteligência Humilhada</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Jonas Madureira <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 35,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Inteligência Humilhada', 'R$ 35,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Poder pela oração</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> E. M. Bounds <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 10,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Poder pela oração', 'R$ 10,00')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">O Evangelho de Deus & e O Evangelho do Homem</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Paul Washer <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('O Evangelho de Deus & e O Evangelho do Homem', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">O que estão fazendo com a Igreja</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Augustus Nicodemus <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 35,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('O que estão fazendo com a Igreja', 'R$ 35,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Fome de Deus</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Hernandes Dias Lopes <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 12,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Fome de Deus', 'R$ 12,00', )">Contribuir</button>
+                    </section>
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Sofrimento, o preço da missão</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Hernandes Dias Lopes <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 18,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Sofrimento, o preço da missão', 'R$ 18,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Graça Abundante ao principal dos pecadores</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> John Bunyan <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 18,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Graça Abundante ao principal dos pecadores', 'R$ 18,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">O Pentecostal Reformado</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Walter McAlister <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 25,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('O Pentecostal Reformado', 'R$ 25,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Em Busca de Deus</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> A. W. Tozer <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Em Busca de Deus', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Autoridade Espiritual</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Igor Pohl Baumann <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Autoridade Espiritual', 'R$ 15,00', )">Contribuir</button>
+                    </section>
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">A arte expositiva de João Calvino</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Steven Lawson <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('A arte expositiva de João Calvino', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Lições aos meus alunos (3 Vol.)</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> C. H. Spurgeon <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 90,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Lições aos meus alunos (3 Vol.)', 'R$ 90,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Eu Sou Chamado?</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Dave Harvey <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 35,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Eu Sou Chamado?', 'R$ 35,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Paixão de Cristo</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> John Piper <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 10,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Paixão de Cristo', 'R$ 10,00')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Igreja Simples</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Rainer & Geiger <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Igreja Simples', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Abaixo a ansiedade</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> John MacArthur <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 280,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Abaixo a ansiedade', 'R$ 280,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Jesus é Senhor</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Stanley Jones <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 10,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Jesus é Senhor', 'R$ 10,00')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Além da utopia</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Harold Segura C. <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Além da utopia', 'R$ 15,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Triunfo da fé</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Heber Carlos de Campos Jr. <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 28,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Triunfo da fé', 'R$ 28,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">A outra face de Jesus</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> John MacArthur <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 10,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('A outra face de Jesus', 'R$ 28,00')">Contribuir</button>
+                    </section>
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">O Perfil do Verdadeiro Cristão</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Paulo Júnior <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 30,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('O Perfil do Verdadeiro Cristão', 'R$ 30,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Humildade, a beleza da santidade</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Andrew Murray <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 18,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Humildade, a beleza da santidade', 'R$ 18,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Uma força em movimento</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Arwin McManus <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Uma força em movimento', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">A vida de David Brainerd</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Jonathan Edwards <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 40,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('A vida de David Brainerd', 'R$ 40,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Com Cristo na escola de oração</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Andrew Murray <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 30,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Com Cristo na escola de oração', 'R$ 30,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Santos no Mundo</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Leland Ryken <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 30,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Santos no Mundo', 'R$ 30,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Em Busca de Deus</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> John Piper <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 22,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Em Busca de Deus', 'R$ 22,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Em guarda: defenda a fé Cristã com razão e precisão</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> William Lane Craig <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 35,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Em guarda: defenda a fé Cristã com razão e precisão', 'R$ 35,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Caridade e seus frutos</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Jonathan Edwards <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 35,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Caridade e seus frutos', 'R$ 35,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">O Evangelho segundo Paulo</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> John MacArthur <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('O Evangelho segundo Paulo', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Servos de Deus</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Franklin Ferreira <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 40,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Servos de Deus', 'R$ 40,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">O que você precisa saber sobre Batalha Espiritual</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Augustus Nicodemus <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 12,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('O que você precisa saber sobre Batalha Espiritual', 'R$ 12,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">E se Deus for contra nós?</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Augustus Nicodemus <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('E se Deus for contra nós?', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Igreja Multiplicadora</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Fernando Brandão <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 10,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Igreja Multiplicadora', 'R$ 10,00' )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Aprofundando Raízes</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Roosevelt Arantes <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 10,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Aprofundando Raízes', 'R$ 10,00')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Como implantar, desenvolver e manter grupos pequenos fortes e saudáveis</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Priscila Laranjeira <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 12,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Como implantar, desenvolver e manter grupos pequenos fortes e saudáveis', 'R$ 12,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">A Base da Unidade Cristã</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> D. M. Llyod-Jones <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('A Base da Unidade Cristã', 'R$ 15,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Encontrando Deus nas dificuldades da Vida</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Bill Hybels <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 5,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Encontrando Deus nas dificuldades da Vida', 'R$ 5,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">A Cruz e o Punhal</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> David Wilkerson <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('A Cruz e o Punhal', 'R$ 15,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">A oração de Jabez</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Bruce Wilkinson <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 11,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('A oração de Jabez', 'R$ 11,00', )">Contribuir</button>
+                    </section>
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Verdadeiro Evangelho</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Paul Washer <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Verdadeiro Evangelho', 'R$ 15,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Ego Transformado</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Timothy Keller <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Ego Transformado', 'R$ 15,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">A doutrina do arrependimento</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Thomas Watson <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('A doutrina do arrependimento', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Cartas aos meus discípulos</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Paulo Júnior <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Cartas aos meus discípulos', 'R$ 15,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">O Peregrino</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> John Bunyan <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 10,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('O Peregrino', 'R$ 10,00')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Clássicos da Literatura Cristã</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 35,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Clássicos da Literatura Cristã', 'R$ 35,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Milagres e parábolas do Nosso Senhor</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> C. H. Spurgeon <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 90,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Milagres e parábolas do Nosso Senhor', 'R$ 90,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">O Apóstolo dos Pés Sangrentos</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Boanerges Ribeiro <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 12,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('O Apóstolo dos Pés Sangrentos', 'R$ 12,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Uma Vida com Propósitos</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Rick Warren <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 10,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Uma Vida com Propósitos', 'R$ 10,00')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Quando pecadores dizem "SIM"</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Dave Harvey <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Quando pecadores dizem SIM', 'R$ 15,00')">Contribuir</button>
+                    </section>
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Paulo, o maior líder do Cristianismo</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Hernandes Dias Lopes <br>
+                                <b>Editora:</b> Hagnos <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Paulo, o maior líder do Cristianismo', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">A vida de Deus na Alma do Homem</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Henry <br>
+                                <b>Editora:</b> PES <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 10,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('A vida de Deus na Alma do Homem', 'R$ 10,00')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">A Poderosa Fraqueza de John Knox</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Douglas Bond <br>
+                                <b>Editora:</b> Fiel <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('A Poderosa Fraqueza de John Knox', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">O Pastor Aprovado</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Richard Baxter <br>
+                                <b>Editora:</b> PES <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('O Pastor Aprovado', 'R$ 15,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Heróis da fé</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Orlando Boyer <br>
+                                <b>Editora:</b> CPAD <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Heróis da fé', 'R$ 15,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Evangelismo & Missões</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> John Piper <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 80,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Evangelismo & Missões', 'R$ 80,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Avivamento</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> D. M. Llyod-Jones <br>
+                                <b>Editora:</b> PES <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Avivamento', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">A prática da piedade</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Lewis Bayly <br>
+                                <b>Editora:</b> PES <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('A prática da piedade', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Ministério, vocação ou profissão</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Justo L. Gonzalez <br>
+                                <b>Editora:</b> Hagnos <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Ministério, vocação ou profissão', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Apologética para questões difíceis da vida</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> William Lane Craig <br>
+                                <b>Editora:</b> Vida Nova <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Apologética para questões difíceis da vida', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Pecados espetaculares e o seu propósito global para a glória de Cristo</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> John Piper <br>
+                                <b>Editora:</b> Cultura Cristã <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 150,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Pecados espetaculares e o seu propósito global para a glória de Cristo', 'R$ 150,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">O Livro dos Mártires</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> John Foxe <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('O Livro dos Mártires', 'R$ 15,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">As Parábolas de Jesus comentadas por John MacArthur</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> John MacArthur <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 15,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('As Parábolas de Jesus comentadas por John MacArthur', 'R$ 15,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Apóstolos</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Augustus Nicodemus <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 25,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Apóstolos', 'R$ 25,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">O Tipo de pregação que Deus Abençoa</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Steven Lawson <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 20,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('O Tipo de pregação que Deus Abençoa', 'R$ 20,00', )">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">10 acusações contra a Igreja Moderna</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Paul Washer <br>
+                                <b>Editora:</b> DAV <br>
+                                <b>Cod:</b> DAV <br>
+                                <b>Preço:</b> R$ 10,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('10 acusações contra a Igreja Moderna', 'R$ 10,00')">Contribuir</button>
+                    </section>
+                    
+                   
+                    
+                   
+
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Dicionário Bíblico Teológico</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> CPP <br>
+                                <b>Editora:</b> Almeida <br>
+                                <b>Cod:</b> RON <br>
+                                <b>Preço:</b> R$ 25,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Dicionário Bíblico Teológico', 'R$ 25,00', 'RON')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Curso Vida Nova Teologia Básica: Homilética</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Ramesh Richard <br>
+                                <b>Editora:</b> Vida Nova <br>
+                                <b>Cod:</b> JHO <br>
+                                <b>Preço:</b> R$ 25,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Curso Vida Nova Teologia Básica: Homilética', 'R$ 25,00', 'JHO')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Curso Vida Nova Teologia Básica: Teologia Sistemática</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Júlo Paulo Tavareis Zabatiero, Org <br>
+                                <b>Editora:</b> Vida Nova <br>
+                                <b>Cod:</b> JHO <br>
+                                <b>Preço:</b> R$ 25,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Curso Vida Nova Teologia Básica: Teologia Sistemática', 'R$ 25,00', 'JHO')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/"  class="item-foto">
+                            <h3 class="item-nome">Destinados para a Glória</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Hernandes Dias Lopes <br>
+                                <b>Editora:</b> United Press <br>
+                                <b>Cod:</b> JHO <br>
+                                <b>Preço:</b> R$ 25,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Destinados para a Glória', 'R$ 25,00', 'JHO')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Soli Deo Glória: O Ser e Obras de Deus</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Paulo Anglada <br>
+                                <b>Editora:</b> Knox <br>
+                                <b>Cod:</b> JHO <br>
+                                <b>Preço:</b> R$ 25,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Soli Deo Glória: O Ser e Obras de Deus', 'R$ 25,00', 'JHO')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/" class="item-foto">
+                            <h3 class="item-nome">Paulo e sua Teologia</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> Lourenço Stelio Rega, org <br>
+                                <b>Editora:</b> Vida Nova <br>
+                                <b>Cod:</b> JHO <br>
+                                <b>Preço:</b> R$ 100,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('Paulo e sua Teologia', 'R$ 100,00', 'JHO')">Contribuir</button>
+                    </section>
+                    
+                    <section class="item">
+                        <div class="item-title">
+                            <img src="./Fotos/"  class="item-foto">
+                            <h3 class="item-nome">A Bíblia garota de fé</h3>
+                        </div>
+                        <div class="item-info">
+                            <p class="item-tipo">
+                                <b>Autor:</b> ... <br>
+                                <b>Editora:</b> ... <br>
+                                <b>Cod:</b> JHO <br>
+                                <b>Preço:</b> R$ 50,00
+                            </p>
+                        </div>
+                        <button class="contribuir-btn" onclick="contribuir('A Bíblia garota de fé', 'R$ 50,00', 'JHO')">Contribuir</button>
+                    </section>
+                    
+                </div>
+            </section>
+          
+    </main>
+    <footer>
+        <div class="pix-message">
+            <p>PIX para pagamento: 073.996.179-96 ou <a target="_blank" href="https://link.mercadopago.com.br/roneyfischer">clique aqui para pagar no cartão</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

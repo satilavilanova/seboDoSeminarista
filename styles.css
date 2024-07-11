@@ -1,0 +1,165 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #001f3f;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    margin: 0;
+    
+    text-transform: uppercase;
+}
+header{
+    letter-spacing: 2px;
+}
+header p {
+    font-size: 1.2em;
+    margin: 20px 0 0;
+}
+
+main {
+    padding: 0rem;    
+    margin: 5rem;
+    margin-bottom: 10rem;
+}
+
+.categoria {
+    margin-bottom: 40px;
+}
+
+.categoria h2 {
+    font-size: 2em;
+    color: #001f3f;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grid-container {
+	
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 20px; /* Adicionado padding */
+}
+selection {
+    
+    height: 50rem;
+}
+.item {
+    height: 20rem;
+	background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;    
+    padding: 20px;   
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+
+.item-foto {
+	margin-top: auto;
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    align-items: center;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.item-title {
+	margin-top: auto;
+    text-align: center;
+}
+
+.item-info{
+	margin-top: auto;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.item-nome {
+	margin-top: auto;
+    font-size: 1.5em;
+    margin: 10px 0;
+    align-self: left;
+}
+
+.item-codigo, .item-autor, .item-edicao, .item-editora, .item-oferta, .item-quantidade {
+    margin: 5px 0;
+}
+
+.contribuir-btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 1px;
+    align-self: center;
+    width: 50%;
+    background-color: #0d8226;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+	margin-top: auto;
+}
+
+.contribuir-btn:hover {
+    background-color: #004080;
+}
+
+footer {
+    background-color: #001f3f;
+    color: white;
+	text-align: center;
+	vertical-align: center;
+    padding: 10px 20px;
+    position: fixed;
+	height: 5rem;
+    width: 100%;
+    bottom: 0;
+	font-size: 1.2rem;
+	
+}
+
+footer a {
+    
+    color: white;
+	
+}
+
+.pix-message {
+    background-color: #001f3f;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.pix-message p {
+    margin: 0;
+    font-size: 1.2em;
+}
