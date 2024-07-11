@@ -130,6 +130,7 @@ footer {
     width: 100%;
     bottom: 0;
     font-size: 1.2rem;
+
 }
 
 footer a {
@@ -137,7 +138,8 @@ footer a {
 }
 
 .pix-message {
-    background-color: #001f3f;
+    position: relative;
+    background-color: red;
     padding: 20px;
     width: 100%;
     text-align: center;
@@ -241,8 +243,15 @@ footer a {
     }
 
     footer {
-        font-size: 1em;
+        font-size: 1em;                
+       padding: 0;
     }
-	
+  .pix-message {
+    
+    background-color: red;
+ 
+    width: 100w;
+    text-align: center;
+}
 
 }
