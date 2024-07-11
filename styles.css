@@ -249,7 +249,7 @@ footer a {
   .pix-message {
     
     background-color: red;
- 
+    padding: 1 rem;
     width: 100w;
     text-align: center;
 }
