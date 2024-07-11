@@ -50,13 +50,13 @@ main {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
     padding: 0 20px;
 }
 
 .item {
-    height: 20rem;
+    height: 50rem;
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
