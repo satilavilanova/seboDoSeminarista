@@ -32,8 +32,8 @@ header p {
 }
 
 main {
-    padding: 0;
-    margin: 2rem 0.5rem;
+    padding: 0 1rem;
+    margin: 2rem 1rem;
 }
 
 .categoria {
@@ -51,7 +51,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
-    padding: 0;
+    padding: 0 20px;
 }
 
 .item {
@@ -62,7 +62,6 @@ main {
     display: flex;
     flex-direction: column;
     padding: 20px 10px;
-    box-sizing: border-box; /* Garantir que padding e border não afetem o tamanho do item */
 }
 
 .item-foto {
@@ -131,8 +130,9 @@ footer {
     width: 100%;
     bottom: 0;
     font-size: 1.2rem;
-    padding: 0;
-    margin: 0;
+padding: 0;
+      margin: 0;
+
 }
 
 footer a {
@@ -141,11 +141,13 @@ footer a {
 
 .pix-message {
     position: relative; 
-    margin: 0;
+	margin: 0;
     padding: 20px 0 20px 0;
     width: 100%;
     text-align: center;
     bottom: 0;
+
+
 }
 
 .pix-message p {
@@ -227,20 +229,17 @@ footer a {
     }
 
     main {
-        margin: 1rem 0;
-        padding: 0 5px;
+        margin: 1rem 0.5rem;
     }
 
     .grid-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 0 5px;
     }
 
     .item {
-        padding: 10px;
-        box-sizing: border-box;
-        width: 100%;
+        padding: 5px;
     }
 
     .contribuir-btn {
@@ -249,11 +248,12 @@ footer a {
     }
 
     footer {
-        font-size: 1em;
-    }
+        font-size: 1em;                
 
-    .pix-message {
-        width: 100%;
-        text-align: center;
     }
+  .pix-message {
+    width: 100w;
+    text-align: center;
+}
+
 }
