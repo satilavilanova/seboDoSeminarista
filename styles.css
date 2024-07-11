@@ -130,9 +130,8 @@ footer {
     width: 100%;
     bottom: 0;
     font-size: 1.2rem;
-padding: 0;
-      margin: 0;
-
+    padding: 0;
+    margin: 0;
 }
 
 footer a {
@@ -141,13 +140,11 @@ footer a {
 
 .pix-message {
     position: relative; 
-	margin: 0;
+    margin: 0;
     padding: 20px 0 20px 0;
     width: 100%;
     text-align: center;
     bottom: 0;
-
-
 }
 
 .pix-message p {
@@ -233,7 +230,7 @@ footer a {
     }
 
     .grid-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: 10px;
         padding: 0 5px;
     }
@@ -249,11 +246,10 @@ footer a {
 
     footer {
         font-size: 1em;                
-
     }
-  .pix-message {
-    width: 100w;
-    text-align: center;
-}
-
+    
+    .pix-message {
+        width: 100%;
+        text-align: center;
+    }
 }
