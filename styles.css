@@ -32,8 +32,8 @@ header p {
 }
 
 main {
-    padding: 0 1rem;
-    margin: 2rem 1rem;
+    padding: 0;
+    margin: 2rem 0.5rem;
 }
 
 .categoria {
@@ -226,17 +226,19 @@ footer a {
     }
 
     main {
-        margin: 1rem 0.5rem;
+        margin: 1rem 0;
+        padding: 0 5px;
     }
 
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-        padding: 0 5px;
+        padding: 0;
     }
 
     .item {
-        padding: 5px;
+        padding: 10px;
+        height: auto;
     }
 
     .contribuir-btn {
