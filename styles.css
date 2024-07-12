@@ -15,8 +15,9 @@ header {
 }
 
 .header-content {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
+    padding: 0;
 }
 
 header h1 {
@@ -29,12 +30,16 @@ header h1 {
 
 header p {
     font-size: 1em;
-    margin: 20px 0 0 5px;
+    margin: 0.5rem;
+}
+
+.description{
+    font-size: 0.7rem;
 }
 
 main {
-    padding: 0 1rem;
-    margin: 2rem 1rem;
+    margin: 0 4rem 10rem 4rem;
+    padding: 0;
 }
 
 .categoria {
@@ -50,53 +55,56 @@ main {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
     gap: 20px;
     padding: 0 20px;
 }
 
 .item {
-    height: 34rem;
+    height: 27rem;
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    padding: 20px 10px;
+    padding: 10px 10px;
 }
 
 .item-foto {
-    margin-top: auto;
-    width: 100%;
-    max-height: 300px;
+    margin: auto;
+    height: 200px;
+    max-width: 100%;    
     object-fit: contain;
     align-items: center;
     align-self: center;
-    margin: 0;
     padding: 0;
 }
 
 .item-title {
     margin-top: auto;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .item-info {
     margin-top: auto;
     text-align: left;
+    font-size: 0.8em;
     padding: 0;
     margin: 0;
 }
 
 .item-nome {
     margin-top: auto;
-    font-size: 1.5em;
-    margin: 10px 0;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
     align-self: left;
 }
 
 .item-codigo, .item-autor, .item-edicao, .item-editora, .item-oferta, .item-quantidade {
-    margin: 5px 0;
+    margin: 0;
+    padding: 0;
 }
 
 .contribuir-btn {
@@ -105,14 +113,14 @@ main {
     font-size: large;
     letter-spacing: 1px;
     align-self: center;
-    width: 50%;
+    width: 60%;
     background-color: #0d8226;
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     cursor: pointer;
-    margin: 5px;
+    margin: 0;
     margin-top: auto;
 }
 
@@ -125,9 +133,9 @@ footer {
     color: white;
     text-align: center;
     vertical-align: center;
-    padding: 10px 20px;
+    padding: 2rem 0 2rem 0;
     position: fixed;
-    height: 5rem;
+    height: min-content;
     width: 100%;
     bottom: 0;
     font-size: 1.2rem;
@@ -140,6 +148,11 @@ footer a {
     color: white;
 }
 
+.cardPay{
+    color: #a6d3ff;
+
+}
+
 .pix-message {
     position: relative; 
 	margin: 0;
@@ -147,6 +160,7 @@ footer a {
     width: 100%;
     text-align: center;
     bottom: 0;
+    font-size: 0.9rem;
 
 
 }
@@ -154,6 +168,12 @@ footer a {
 .pix-message p {
     margin: 0;
     font-size: 1.2em;
+}
+
+.seta {
+    background-color: black;
+    color: black;
+    font-size: 2rem;
 }
 
 /* Media Queries */
@@ -258,3 +278,5 @@ footer a {
 }
 
 }
+
+
