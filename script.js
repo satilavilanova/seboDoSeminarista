@@ -1,3 +1,4 @@
+
 function contribuir(nomeDoItem, ofertaDoItem, codigoDoItem) {
     const numeroWhatsApp = '41998141014';
     const mensagem = `Olá, Rôney, gostaria de contribuir adquirindo o ${nomeDoItem} por ${ofertaDoItem}`;
@@ -5,9 +6,12 @@ function contribuir(nomeDoItem, ofertaDoItem, codigoDoItem) {
     window.open(url, '_blank');
 }
 
+function removeAccents(str) {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
 
 function filterItems() {
-    const input = document.getElementById('searchInput').value.toLowerCase();
+    const input = removeAccents(document.getElementById('searchInput').value.toLowerCase());
     const minPrice = document.getElementById('minPrice').value;
     const maxPrice = document.getElementById('maxPrice').value;
     const sortPrice = document.getElementById('sortPrice').value;
@@ -18,8 +22,8 @@ function filterItems() {
     const itemsArray = Array.from(items);
 
     itemsArray.forEach(item => {
-        const title = item.querySelector('.item-nome').textContent.toLowerCase();
-        const details = item.querySelector('.item-tipo').innerHTML.toLowerCase();
+        const title = removeAccents(item.querySelector('.item-nome').textContent.toLowerCase());
+        const details = removeAccents(item.querySelector('.item-tipo').innerHTML.toLowerCase());
         const priceText = details.match(/r\$ (\d+,\d+)/i);
         const price = priceText ? parseFloat(priceText[1].replace(',', '.')) : 0;
 
@@ -57,4 +61,3 @@ function getPrice(item) {
     const priceText = details.match(/r\$ (\d+,\d+)/i);
     return priceText ? parseFloat(priceText[1].replace(',', '.')) : 0;
 }
-
