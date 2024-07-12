@@ -42,6 +42,51 @@ main {
     padding: 0;
 }
 
+
+
+
+
+.search-filter {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#searchInput, #minPrice, #maxPrice {
+    width: 25%;
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+#minPrice, #maxPrice {
+    width: 10rem;
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+#sortPrice {
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    width: 200px; /* Largura suficiente para o texto "Ordenar por preço" */
+}
+
+
+
+
+
+
+
 .categoria {
     margin-bottom: 40px;
 }
@@ -240,6 +285,15 @@ footer a {
 
     main {
         margin: 1.5rem 1rem;
+    }
+
+    #searchInput, #minPrice, #maxPrice {
+        width: 80%;
+        margin: 10px 0;
+    }
+    #sortPrice {
+        width: 80%; /* Ajuste para telas menores */
+        margin: 10px 0;
     }
 
     .grid-container {
