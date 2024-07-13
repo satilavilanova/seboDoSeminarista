@@ -1,4 +1,10 @@
 
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Ordena os itens na carga da página
+    sortItems();
+});
+
 function contribuir(nomeDoItem, ofertaDoItem, codigoDoItem) {
     const numeroWhatsApp = '41998141014';
     const mensagem = `Olá, Rôney, gostaria de contribuir adquirindo o ${nomeDoItem} por ${ofertaDoItem}`;
@@ -52,6 +58,19 @@ function filterItems() {
         });
     }
 
+    // Ordena para colocar itens não vendidos primeiro
+    itemsArray.sort((a, b) => {
+        const isSoldA = isSold(a);
+        const isSoldB = isSold(b);
+        if (isSoldA && !isSoldB) {
+            return 1;
+        } else if (!isSoldA && isSoldB) {
+            return -1;
+        } else {
+            return 0;
+        }
+    });
+
     // Reorganiza os itens conforme a ordenação
     itemsArray.forEach(item => itemsContainer.appendChild(item));
 }
@@ -60,4 +79,29 @@ function getPrice(item) {
     const details = item.querySelector('.item-tipo').innerHTML.toLowerCase();
     const priceText = details.match(/r\$ (\d+,\d+)/i);
     return priceText ? parseFloat(priceText[1].replace(',', '.')) : 0;
+}
+
+function isSold(item) {
+    return item.querySelector('.item-foto[src="./Fotos/Vendido.png"]') !== null;
+}
+
+function sortItems() {
+    const itemsContainer = document.querySelector('.grid-container');
+    const itemsArray = Array.from(itemsContainer.children);
+
+    // Ordena para colocar itens não vendidos primeiro
+    itemsArray.sort((a, b) => {
+        const isSoldA = isSold(a);
+        const isSoldB = isSold(b);
+        if (isSoldA && !isSoldB) {
+            return 1;
+        } else if (!isSoldA && isSoldB) {
+            return -1;
+        } else {
+            return 0;
+        }
+    });
+
+    // Reorganiza os itens conforme a ordenação
+    itemsArray.forEach(item => itemsContainer.appendChild(item));
 }
