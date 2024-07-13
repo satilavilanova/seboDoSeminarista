@@ -1,5 +1,3 @@
-
-
 document.addEventListener('DOMContentLoaded', () => {
     // Ordena os itens na carga da página
     sortItems();
@@ -105,3 +103,6 @@ function sortItems() {
     // Reorganiza os itens conforme a ordenação
     itemsArray.forEach(item => itemsContainer.appendChild(item));
 }
+
+
+
