@@ -32,6 +32,9 @@ header p {
     font-size: 1em;
     margin: 0.5rem;
 }
+.logo-foto {
+	max-height: 10px;
+}
 
 .description{
     font-size: 0.7rem;
