@@ -33,9 +33,10 @@ header p {
     margin: 0.5rem;
 }
 .logo-foto {
-	max-height: 4h;
-}
-
+    max-height: 4vh;
+    height: auto;
+    width: auto;
+  }
 .description{
     font-size: 0.7rem;
 }
